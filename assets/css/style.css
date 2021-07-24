@@ -36,6 +36,5 @@ header {
 }
 
 #menu li {
-    display: block;
-    float: inline-start;
+    display: inline;
 }
