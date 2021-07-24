@@ -35,6 +35,21 @@ header {
     padding: 10px 40%;
 }
 
+#title h1 {
+    font-size: 200%;
+}
+
 #menu li {
     display: inline;
 }
+
+a {
+    text-decoration: none;
+    padding: 0 10%;
+    color: #353535;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
