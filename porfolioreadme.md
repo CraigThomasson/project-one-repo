@@ -4,3 +4,4 @@ matt bodden p5 lead, talked me frew some issues i was having with styleing my he
 
 images:
 https://www.pexels.com/photo/woman-in-gray-tank-top-lying-on-bed-3807729/
+https://www.pexels.com/photo/black-corded-headphones-with-colorful-books-in-between-5939401/

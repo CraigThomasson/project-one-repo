@@ -101,9 +101,9 @@ header {
     font-size: 150%;
     background-color: #f5e2c1;
     border-radius: 6px;
-    padding: 1px 1px 1px 1px;
+    padding: 2px 2px 2px 2px;
     text-align: center;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
 
 /* hero img */
@@ -127,6 +127,7 @@ header {
 
 nav {
     padding-top: 2px;
+    margin: 3px;
   
    
 }
@@ -178,11 +179,11 @@ a:hover {
 #call-to-action {
     background-color: rgba(239,204,172,1);
     height: 30%;
-    width: 70%;
+    width: 60%;
     text-align: center;
     border-radius: 5%;
-    float: right;
-    margin-top: 5vh;
+    float: left;
+    margin-top: 2vh;
 }
 
 #call-to-action p {
@@ -195,7 +196,7 @@ a:hover {
     background-color: rgba(239,204,172,1);
     font-weight: bold;
     font-size: 150%;
-    padding: 3px;
+    margin-top: 10px;
     width: 50%;
     height: 10vh;
     border-radius: 5%;
