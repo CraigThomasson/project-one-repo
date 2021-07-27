@@ -168,6 +168,8 @@ a:hover {
     font-size: 130%;
 }
 
+/* call to action */
+
 #call-to-action {
     background-color: rgba(239,204,172,1);
     display: absolute;
@@ -183,6 +185,15 @@ a:hover {
     font-weight: bold;
     font-size: 170%;
     padding: 10%;
+}
+
+#hire-button {
+    background-color: rgba(239,204,172,1);
+    font-weight: bold;
+    padding: 3px;
+    width: 30%;
+    height: 4vh;
+    border-radius: 5%;
 }
 
 /* sample section */
