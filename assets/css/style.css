@@ -11,16 +11,30 @@ body {
     font-weight: 300;
     color: #371300;
     background-color:rgba(245,226,193,1);
+    position: relative;
+    z-index: 3;
 }
 
 /* background img home page */
-#background-img-home {
-    background: url(../media/images/woman-listening-chill.jpeg) no-repeat center center;
-    grid-area: about-text about-img;
+#bg {
+    object-fit: contain;
+    height: 100%;
+    width: auto;
+    position: absolute;
+    z-index: 4;
+}
+#bg img {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
 }
 
 /* grid */
+
 #grid-cont {
+    position: absolute;
+    z-index: 5;
+    background-color:rgba(245,226,193,0.6);
     display: grid;
     grid-template-columns: 3vw 1fr 2vw 1fr 3vw;
     grid-template-rows: 25vh 1fr 1fr;
@@ -28,8 +42,8 @@ body {
     "header-text header-text header-text header-text header-text"
     ". about-text . about-img ."
    " . sample-img . sample-text .";
-}
-
+  }
+ 
 /* headings and paragraph styling */
 
 h1, h2 {
@@ -73,7 +87,7 @@ header {
 }
 
 #title  h1 span {
-    font-size: 250%;
+    font-size: 200%;
     padding-bottom: 20px;
     background-color: #f5e2c1;
     border-radius: 6px;
@@ -83,11 +97,12 @@ header {
 }
 
 #title h2 span{
+    font-size: 150%;
     background-color: #f5e2c1;
     border-radius: 6px;
     padding: 1px 1px 1px 1px;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 /* hero img */
@@ -106,12 +121,11 @@ header {
 /* navigation */
 
 #nav-container {
-    clear: both;
-    
+    height: 10px;
 }
 
 nav {
-    padding-top: 3vh;
+    padding-top: 2px;
   
    
 }
