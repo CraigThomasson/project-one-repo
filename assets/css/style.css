@@ -9,8 +9,14 @@
 body {
     font-family: montserrat, sans-serif;
     font-weight: 300;
-    color: #353535;
-    background-color: #f5e2c1;
+    color: #371300;
+    background-color:rgba(245,226,193,1);
+}
+
+/* background img home page */
+#background-img-home {
+    background: url(../media/images/woman-listening-chill.jpeg) no-repeat center center;
+    grid-area: about-text about-img;
 }
 
 /* grid */
@@ -34,7 +40,7 @@ h1, h2 {
 
 p {
     letter-spacing: 2px;
-    color: #2c2c2c;
+    color: #371300;
     padding: 0px;
 }
 
@@ -44,7 +50,7 @@ header {
     grid-area: header-text;
     width: 100%;
     height: 100%;
-    background-color: #b09c94;
+    background-color: #371300;
     text-align: center;
 }
 
@@ -119,7 +125,7 @@ nav {
 a {
     text-decoration: none;
     padding: 2px 5px;
-    color:  #2c2c2c;
+    color:  #371300;
     background-color: #f5e2c1;;
     border-radius: 6px;
 }
@@ -127,28 +133,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-/* prifile image */
-
-#profile-img {
-    grid-area: about-img;
-    width: 20%;
-    height: 100%;
-    float: left;
-    padding: 0;
-    position: absolute;
-    background: url(../media/images/me.jpg) no-repeat center center / contain;
-    background-color: #111111; 
-}
-
-/* #profile-img > img { 
-    width: auto;
-    height: 25vh;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    border-radius: 50%;
-} */
 
 /* about section */
 
@@ -194,6 +178,7 @@ a:hover {
     width: 30%;
     height: 4vh;
     border-radius: 5%;
+    color: #371300;
 }
 
 /* sample section */
