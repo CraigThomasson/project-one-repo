@@ -38,6 +38,7 @@ body {
     display: grid;
     grid-template-columns: 3vw 1fr 2vw 1fr 3vw;
     grid-template-rows: 25vh 1fr 1fr;
+    row-gap: 10px;
     grid-template-areas:
     "header-text header-text header-text header-text header-text"
     ". about-text . about-img ."
@@ -115,7 +116,7 @@ header {
 #hero-img img {
     width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 5%;
 }
 
 /* navigation */
@@ -140,7 +141,7 @@ a {
     text-decoration: none;
     padding: 2px 5px;
     color:  #371300;
-    background-color: #f5e2c1;;
+    background-color: #f5e2c1;
     border-radius: 6px;
 }
 
@@ -153,9 +154,15 @@ a:hover {
 #about {
     grid-area: about-text;
     width: 79%;
-    float: right;
-    padding: 5px 5px;
+    padding: 10px 5px;
     display: relative;
+}
+
+#about-me-border {
+    background-color: rgba(239,204,172,1);
+    padding: 3px;
+    text-align: center;
+    border-radius: 5%;
 }
 
 #about h3 {
@@ -170,29 +177,35 @@ a:hover {
 
 #call-to-action {
     background-color: rgba(239,204,172,1);
-    display: absolute;
     height: 30%;
     width: 70%;
     text-align: center;
     border-radius: 5%;
     float: right;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 #call-to-action p {
     font-weight: bold;
-    font-size: 170%;
+    font-size: 120%;
     padding: 10%;
 }
 
 #hire-button {
     background-color: rgba(239,204,172,1);
     font-weight: bold;
+    font-size: 150%;
     padding: 3px;
-    width: 30%;
-    height: 4vh;
+    width: 50%;
+    height: 10vh;
     border-radius: 5%;
     color: #371300;
+}
+
+#hire-button:hover {
+    background-color: #371300;
+    color: rgba(239,204,172,1);
+    text-decoration: underline;
 }
 
 /* sample section */
