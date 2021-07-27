@@ -88,6 +88,7 @@ header {
 
 #hero-img {
     grid-area: about-img;
+    margin-top: 2vh;
 }
 
 #hero-img img {
@@ -156,8 +157,35 @@ a:hover {
     width: 79%;
     float: right;
     padding: 5px 5px;
+    display: relative;
 }
 
+#about h3 {
+    font-size: 160%;
+}
+
+#about p {
+    font-size: 130%;
+}
+
+#call-to-action {
+    background-color: rgba(239,204,172,1);
+    display: absolute;
+    height: 30%;
+    width: 70%;
+    text-align: center;
+    border-radius: 5%;
+    float: right;
+    margin-top: 10vh;
+}
+
+#call-to-action p {
+    font-weight: bold;
+    font-size: 170%;
+    padding: 10%;
+}
+
+/* sample section */
 #samples {
     grid-area: sample-text;
 }
