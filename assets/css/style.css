@@ -216,16 +216,6 @@ a:hover {
     font-size: 120%;
 }
 
-#hire-button {
-    background-color: rgba(239,204,172,1);
-    font-weight: bold;
-    font-size: 150%;
-    width: 50%;
-    height: 10vh;
-    border-radius: 5%;
-    color: #371300;
-}
-
 #hire-button:hover {
     background-color: #371300;
     color: rgba(239,204,172,1);
@@ -235,6 +225,11 @@ a:hover {
 /* sample section */
 #samples {
     grid-area: sample-text;
+}
+
+#sample-text-container {
+    text-align: center;
+    margin: auto;
 }
 
 #sample-img {
