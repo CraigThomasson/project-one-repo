@@ -139,8 +139,12 @@ header {
 }
 
 #hero-img img {
-    width: 100%;
-    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     border-radius: 5%;
 }
 
@@ -236,10 +240,17 @@ a:hover {
 
 #sample-img {
     grid-area: sample-img;
+    height: 100%;
+    width: auto;
 }
 
 #sample-img img {
-    height: 50%;
-    width: auto;
+    height: 60%;
     border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 15%;
+    margin-bottom:10%;
 }
