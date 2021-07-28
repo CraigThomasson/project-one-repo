@@ -38,7 +38,7 @@ body {
     display: grid;
     grid-template-columns: 3vw 1fr 2vw 1fr 3vw;
     grid-template-rows: 25vh 1fr 1fr;
-    row-gap: 10px;
+    row-gap: 5px;
     grid-template-areas:
     "header-text header-text header-text header-text header-text"
     ". about-text . about-img ."
@@ -57,6 +57,22 @@ p {
     letter-spacing: 2px;
     color: #371300;
     padding: 0px;
+}
+
+/* section styleing */
+
+.section-style {
+    background-color: rgba(239,204,172,1);
+    padding: 3px;
+    text-align: center;
+    border-radius: 5%;
+}
+.section-heading {
+    font-size: 160%;
+}
+
+.section-paragraph {
+    font-size: 130%;S
 }
 
 /* header */
@@ -157,23 +173,7 @@ a:hover {
     width: 79%;
     padding: 10px 5px;
     display: relative;
-}
-
-#about-me-border {
-    background-color: rgba(239,204,172,1);
-    padding: 3px;
-    text-align: center;
-    border-radius: 5%;
-}
-
-#about h3 {
-    font-size: 160%;
-}
-
-#about p {
-    font-size: 130%;
-}
-
+}    
 /* call to action */
 
 #call-to-action {
@@ -212,4 +212,13 @@ a:hover {
 /* sample section */
 #samples {
     grid-area: sample-text;
+}
+
+#sample-img {
+    grid-area: sample-img;
+}
+
+#sample-img img {
+    height: fit-content;
+    border-radius: 5%;
 }
