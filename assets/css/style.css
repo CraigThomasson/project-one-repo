@@ -29,7 +29,7 @@ body {
     z-index: 4;
 }
 #bg img {
-    position: relativec;
+    position: relative;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -42,7 +42,7 @@ body {
     z-index: 5;
     display: grid;
     grid-template-columns: 5vw 45% 3vw 45% 5vw;
-    grid-template-rows: 25vh 1fr 1fr 1fr;
+    grid-template-rows: 27vh 1fr 1fr 1fr;
     row-gap: 5px;
     grid-template-areas:
     ". header-text header-text header-text ."
@@ -99,7 +99,7 @@ header {
     height: 100%;
     background-color: #371300;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 2vw;
 }
 
 #header-text {
@@ -114,20 +114,15 @@ header {
 }
 
 #title  h1 {
-    margin: 10px;
-}
-
-#title  h1 span {
-    font-size: 200%;
-    padding-bottom: 20px;
+    font-size: 180%;
     background-color: #f5e2c1;
     border-radius: 6px;
     padding: 2px;
-    margin: 10px;
-    letter-spacing: 4px;
+    margin: 5px;
+    letter-spacing: 1vw;
 }
 
-#title h2 span{
+#title h2 {
     font-size: 150%;
     background-color: #f5e2c1;
     border-radius: 6px;
@@ -140,7 +135,7 @@ header {
 
 #hero-img {
     grid-area: about-img;
-    margin-top: 2vh;
+    margin-top: 3vh;
 }
 
 #hero-img img {
@@ -158,7 +153,6 @@ header {
 #nav-container {
     height: 10px;
 }
-
 nav {
     margin: 3px;
 }
@@ -187,9 +181,10 @@ a:hover {
 #about {
     grid-area: about-text;
     display: grid;
+    margin-top: 2vw;
     text-align: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 55% 45%;
     grid-template-areas: 
     "about-text-container"
     "call-to-action";
@@ -198,7 +193,8 @@ a:hover {
 #about-text-container {
     grid-area: about-text-container;
     text-align: center;
-    margin: auto;
+    margin: auto auto;
+    margin-top: 2vh;
 }
 
 /* call to action */
@@ -208,10 +204,11 @@ a:hover {
     height: 30%;
     width: 60%;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 2vh;
     float: left;
-    margin: auto;
+    margin: auto auto;
     grid-area: call-to-action;
+    margin-top: 8vh;
 }
 
 #call-to-action p {
@@ -260,7 +257,7 @@ a:hover {
     background-color: #371300;
     text-align: center;
     padding: 3% 0;
-    border-radius: 5%;
+    border-radius: 2vw;
 }
 
 footer li {
