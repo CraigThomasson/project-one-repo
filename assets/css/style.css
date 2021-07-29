@@ -113,13 +113,15 @@ header {
     text-align: center;
 }
 
-#title  h1 {
+#heading {
     font-size: 180%;
     background-color: #f5e2c1;
-    border-radius: 6px;
+    border-radius: 0px 0px 12px 12px ;
     padding: 2px;
-    margin: 5px;
+    margin: 4px auto;
+    margin-top: 2vh;
     letter-spacing: 1vw;
+    width: 80%;
 }
 
 #title h2 {
@@ -152,9 +154,10 @@ header {
 
 #nav-container {
     height: 10px;
+    margin: auto auto;
 }
 nav {
-    margin: 3px;
+    margin-top: 1vh;
 }
 
 #menu li {
