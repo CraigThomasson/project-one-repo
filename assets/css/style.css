@@ -71,7 +71,7 @@ p {
 .section-style {
     background-color: rgba(239,204,172,1);
     text-align: center;
-    border-radius: 5%;
+    border-radius: 1vw;
     width: 80%;
 }
 .section-heading {
@@ -233,7 +233,8 @@ a:hover {
 
 #sample-text-container {
     text-align: center;
-    margin: auto;
+    margin: auto auto;
+    margin-top: 2vh;
 }
 
 #sample-img {
