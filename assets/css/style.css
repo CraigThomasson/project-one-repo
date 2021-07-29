@@ -42,14 +42,15 @@ body {
     z-index: 5;
     display: grid;
     grid-template-columns: 5vw 45% 3vw 45% 5vw;
-    grid-template-rows: 25vh 1fr 1fr;
+    grid-template-rows: 25vh 1fr 1fr 1fr;
     row-gap: 5px;
     grid-template-areas:
     ". header-text header-text header-text ."
     ". about-text . about-img ."
-   " . sample-img . sample-text .";
-   width: 100%;
-   height: 100%;
+    " . sample-img . sample-text ."
+    ". footer footer footer .";
+    width: 100%;
+    height: 100%;
   }
  
 /* headings and paragraph styling */
@@ -247,4 +248,26 @@ a:hover {
     width: 80%;
     margin-top: 15%;
     margin-bottom:10%;
+}
+
+/* footer */
+
+#footer {
+    grid-area: footer;
+    background-color: #371300;
+    text-align: center;
+    padding: 3% 0;
+}
+
+footer li {
+    display: inline;
+    width: 33%;
+    margin: 9px 10%;
+    padding: none;
+    background-color: rgba(239,204,172,1);
+}
+
+footer p {
+    color: rgba(239,204,172,1);
+    padding: 3px;
 }
