@@ -263,6 +263,13 @@ a:hover {
     margin-bottom:10%;
 }
 
+.sample-audio {
+    text-align: center;
+    margin: 15% 20%;
+    background-color: rgba(239,204,172,1);
+    border-radius: 5vh;
+}
+
 /* footer */
 
 #footer {
