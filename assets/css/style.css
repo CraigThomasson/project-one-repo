@@ -13,7 +13,6 @@ body {
     background-color:rgba(245,226,193,1);
 }
 
-
 /* background img home page */
 
 #bg-container {
@@ -176,6 +175,10 @@ a {
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+.active {
     text-decoration: underline;
 }
 
