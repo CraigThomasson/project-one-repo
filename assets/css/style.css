@@ -56,8 +56,7 @@ body {
 
 h1, h2 {
     font-family: oswald, sans-serif;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;   
 }
 
 p {
@@ -73,6 +72,7 @@ p {
     border-radius: 1vw;
     width: 80%;
 }
+
 .section-heading {
     font-size: 160%;
 }
