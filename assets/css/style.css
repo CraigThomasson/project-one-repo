@@ -187,7 +187,7 @@ a:hover {
 #about {
     grid-area: about-text;
     display: grid;
-    margin-top: 2vw;
+    margin-top: 1.2vw;
     text-align: center;
     grid-template-columns: 1fr;
     grid-template-rows: 55% 45%;
@@ -200,7 +200,7 @@ a:hover {
     grid-area: about-text-container;
     text-align: center;
     margin: auto auto;
-    margin-top: 2vh;
+    margin-top: 8vh;
 }
 
 /* call to action */
@@ -214,18 +214,24 @@ a:hover {
     float: left;
     margin: auto auto;
     grid-area: call-to-action;
-    margin-top: 8vh;
+    margin-top: 6vh;
 }
 
 #call-to-action p {
     font-weight: bold;
     font-size: 120%;
+    margin-top: 5%;
 }
 
-#hire-button:hover {
+#call-to-action p a {
+    background-color: rgba(239,204,172,1);
+}
+
+#call-to-action p a:hover {
     background-color: #371300;
     color: rgba(239,204,172,1);
     text-decoration: underline;
+    padding: 2px;
 }
 
 /* sample section */
