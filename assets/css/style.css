@@ -34,6 +34,27 @@ body {
     height: 100%;
 }
 
+/* background img contact page */
+
+#bg-container-contact {
+    position: relative;
+    width: 100%;
+}
+
+#bg-contact {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+#bg-contact img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 /* grid  for home page */
 
 #grid-cont {
@@ -149,6 +170,38 @@ header {
     margin-bottom: 4px;
 }
 
+/* header contact page */
+
+#header-background-contact {
+    width: 100%;
+    height: 100%;
+    background-color: #371300;
+    text-align: center;
+    border-radius: 2vw;
+}
+
+#header-text-contact {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#title-contact {
+    width: 100%;
+    text-align: center;
+}
+
+#heading-contact {
+    font-size: 180%;
+    background-color: #f5e2c1;
+    border-radius: 0px 0px 12px 12px ;
+    padding: 2px;
+    margin: 4px auto;
+    margin-top: 2vh;
+    letter-spacing: 1vw;
+    width: 80%;
+}
+
 /* hero img */
 
 #hero-img {
@@ -197,6 +250,20 @@ a:hover {
 
 .active {
     text-decoration: underline;
+}
+
+/* nav contacts page */
+
+#nav-container-contact {
+    height: 10px;
+    margin: auto auto;
+}
+
+#menu-contact li {
+    display: inline;
+    width: 33%;
+    margin: 0 10%;
+    padding: none;
 }
 
 /* about section */
@@ -285,6 +352,11 @@ a:hover {
     margin: 15% 20%;
     background-color: rgba(239,204,172,1);
     border-radius: 5vh;
+}
+
+/* contacts from */
+#contact-form {
+    grid-area: form-text;
 }
 
 /* footer */
