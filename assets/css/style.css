@@ -270,11 +270,6 @@ a:hover {
     border-radius: 5vh;
 }
 
-/* contacts from */
-#contact-form {
-    grid-area: form-text;
-}
-
 /* footer */
 
 #footer {
@@ -302,8 +297,6 @@ footer p {
 footer a{
     font-size: 160%;
 }
-
-/* contact page */
 
 /* background img contact page */
 
@@ -387,4 +380,52 @@ footer a{
     width: 33%;
     margin: 0 10%;
     padding: none;
+}
+
+/* form */
+
+#contact-section {
+    grid-area: form-text;
+    margin: 5% 10%;
+}
+
+#form-container {
+    width: 33%;
+    background-color: rgba(239,204,172,1);
+    margin: 5% 33%;
+    border-radius: 1vh;
+}
+
+#form-text-container {
+    margin: 3% 10%;
+}
+
+form input {
+    width: 90%;
+    margin: 4px;
+    border: 1px solid #371300;
+}
+
+form input[type=submit] {
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #371300;
+    font-weight: bold;
+}
+
+form input[type=submit]:hover {
+    background-color: #371300;
+    color: #f5e2c1;
+}
+
+form label {
+    margin: 7PX;
+    font-weight: bold;
+}
+
+form textarea {
+    margin: 4px;
+    border: 1px solid #371300;
+    width: 95%;
 }
