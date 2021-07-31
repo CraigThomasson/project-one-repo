@@ -291,4 +291,9 @@ footer li {
 footer p {
     color: rgba(239,204,172,1);
     padding: 3px;
+    margin-top: 10px;
+}
+
+footer a{
+    font-size: 160%;
 }
