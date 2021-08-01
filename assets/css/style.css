@@ -165,7 +165,6 @@ nav {
     display: inline;
     width: 33%;
     margin: 0 10%;
-    padding: none;
 }
 
 a {
@@ -289,7 +288,6 @@ footer li {
     display: inline;
     width: 33%;
     margin: 9px 10%;
-    padding: none;
     background-color: rgba(239,204,172,1);
 }
 
