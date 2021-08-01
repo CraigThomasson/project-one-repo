@@ -273,7 +273,7 @@ a:hover {
 
 /* footer */
 
-#footer {
+.footer {
     grid-area: footer;
     background-color: #371300;
     text-align: center;
@@ -429,4 +429,15 @@ form textarea {
     margin: 4px;
     border: 1px solid #371300;
     width: 95%;
+}
+
+/* contacts page footer */
+
+.footer-contact {
+    grid-area: footer;
+    background-color: #371300;
+    text-align: center;
+    padding: 3% 0;
+    border-radius: 2vw;
+    width: 100%;
 }
