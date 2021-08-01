@@ -300,27 +300,6 @@ footer a{
     font-size: 160%;
 }
 
-/* background img contact page */
-
-#bg-container-contact {
-    position: relative;
-    width: 100%;
-}
-
-#bg-contact {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    z-index: 4;
-}
-#bg-contact img {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
 /* form */
 
 #contact-section {
@@ -329,12 +308,12 @@ footer a{
 
 #form-container {
     background-color: rgba(239,204,172,1);
-    margin: 5% 33%;
+    margin: 5% 10%;
     border-radius: 1vh;
 }
 
 #form-text-container {
-    margin: 3% 10%;
+    margin: 3% 12%;
 }
 
 form input {
@@ -376,4 +355,19 @@ form textarea {
     padding: 3% 0;
     border-radius: 2vw;
     width: 100%;
+}
+
+#form-img {
+    grid-area: form-img;
+}
+
+#form-img img {
+    height: auto;
+    width: 95%;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
