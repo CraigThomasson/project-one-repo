@@ -271,7 +271,9 @@ a:hover {
     text-align: center;
     margin: 15% 20%;
     background-color: rgba(239,204,172,1);
-    border-radius: 5vh;
+    height: auto;
+    width: 70%;
+    border-radius: 3vh;
 }
 
 /* footer */
