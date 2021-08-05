@@ -272,6 +272,7 @@ a:hover {
     height: auto;
     width: 70%;
     border-radius: 3vh;
+    padding: 5px;
 }
 
 /* footer */
