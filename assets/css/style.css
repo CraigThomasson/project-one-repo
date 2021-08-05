@@ -268,7 +268,7 @@ a:hover {
 
 .sample-audio {
     text-align: center;
-    margin: 15% 20%;
+    margin: 15%;
     background-color: rgba(239,204,172,1);
     height: auto;
     width: 70%;
@@ -398,7 +398,7 @@ form textarea {
     }
 }
 
-/* header media query */
+/* small screen size media query */
 
 @media screen and (max-width:750px) {
     #heading {
@@ -407,6 +407,14 @@ form textarea {
     
     #menu li {
         margin: 0 5%;
+    }
+
+    .sample-audio {
+        /* width: 100%; */
+    }
+
+    audio {
+        width: 90%;
     }
 }
 
