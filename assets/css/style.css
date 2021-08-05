@@ -409,10 +409,6 @@ form textarea {
         margin: 0 5%;
     }
 
-    .sample-audio {
-        /* width: 100%; */
-    }
-
     audio {
         width: 90%;
     }
