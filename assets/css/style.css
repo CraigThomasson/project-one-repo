@@ -168,7 +168,7 @@ nav {
 
 a {
     text-decoration: none;
-    padding: 2px 0px;
+    padding: 2px;
     color:  #371300;
     background-color: #f5e2c1;
     border-radius: 6px;
@@ -426,11 +426,20 @@ form textarea {
     }
 }
 
-/* smaller srceen size nav bar fix */
+/* smaller srceen */
 
-@media screen and (max-width: 329px) {
+@media screen and (max-width: 350px) {
+     #heading {
+        font-size: 110%;
+    }
+
     #menu li {
-        margin: 0 5px;
+        margin: 0 1px;
+        box-sizing: border-box;
+    }
+
+    #menu li a {
+        font-size: 90%;
     }
 }
 
