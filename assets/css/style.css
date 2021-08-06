@@ -426,3 +426,11 @@ form textarea {
     }
 }
 
+/* smaller srceen size nav bar fix */
+
+@media screen and (max-width: 329px) {
+    #menu li {
+        margin: 0 5px;
+    }
+}
+
