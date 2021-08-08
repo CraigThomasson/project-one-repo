@@ -50,6 +50,9 @@ The users will:
 ## Functionality:
 
 # Load screen/about section
+
+<img src="documentation/load-screen.PNG" width="450" height="250" alt="image of live site title acreen/about section">
+
 The site opens to a title, subtitle and about section. 
 * The title and subtitle make it clear that the site is for audio book narration and the about section clearly stats the services offered.
 * There is a nave bar that will send the user to each section of the page.
