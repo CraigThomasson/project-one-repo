@@ -86,8 +86,10 @@ The site opens to a title, subtitle and about section.
 * It contains links to socials and also copyright info.
 
 ## Technologies used
-HTML
-CSS
-Reaper: DAW to create sample audio 
+HTML, CSS, Reaper: DAW to create sample audio 
 
+### socrces and referances:
+* Images souced from unspash.com and www.pexels.com
+* used this site as a refferance for using css grids: https://www.codegrepper.com/code-examples/css/make+css+grid+expand+to+fit+content
+* bases my audio code from this page"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
 
