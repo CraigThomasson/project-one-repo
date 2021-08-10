@@ -12,18 +12,18 @@ Click [here](https://craigthomasson.github.io/project-one-repo/) to view the liv
 <br>
 
 ## Goals
-The goal was to create site that will increase the online presence of the audiobook narrator and increase the amount of potential work they are offered. The site needs to clearly state what service is offered with clear example of the quality of the product. 
+The goal was to create a site that will increase the online presence of the audiobook narrator, and increase the amount of potential work they are offered. The site needs to clearly state what service is offered, with a clear example of the quality of the product. 
 At the same time, it should make it quick and easy to contact the narrator and request work.
 
-##### To achieve these goal’s I will need to:
-* Create a web site with good searchability 
+##### To achieve these goals I will need to:
+* Create a website with good searchability
 * Have playable examples of work that is easy to access
-* Ensure the contacts section is clear and easy to find.
-* Create a UX design that is intuitive to use and flows well.
-The users will:
-* Be looking to hire an audiobook narrator:
-* Be able to quickly navigate to sample work and the contact section
-* Have a clear understanding of the services offered. 
+* Ensure the contacts section is clear and easy to find
+* Create a UX design that is intuitive to use and flows well
+* The users will:
+    * Be looking to hire an audiobook narrator:
+    * Be able to quickly navigate to sample work and the contact section
+    * Have a clear understanding of the services offered. 
 
 ## wire frames for original concept
 
