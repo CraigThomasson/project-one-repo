@@ -49,7 +49,7 @@ The users will:
 
 ## Functionality:
 
-# Load screen/about section
+## Load screen/about section
 
 <img src="documentation/load-screen.PNG" width="450" height="250" alt="image of live site title acreen/about section">
 
@@ -58,3 +58,13 @@ The site opens to a title, subtitle and about section.
 * There is a nave bar that will send the user to each section of the page.
 * I decided to turn this site in to a one-page site part way through he projects as this will mean that every thing the user need is easy to access. 
 * I used a call to action that link to the contact section so that user that want to hire the narrator can quickly navigated to that section of the sight
+
+## sample section
+
+<img src="documentation/sample.PNG" width="450" height="250" alt="image of sample section of the web site">
+
+ * This section contains two audio players with samples of the narrators work. 
+ * The samples section is the reason I chose to change to a one page style website as it made more sense to have the samples easily accessible to the user. 
+* The audio players do not auto play when the site loads and can be controlled by the user. 
+* This section also contains and image of the audio equipment a narrator would use. 
+
