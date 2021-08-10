@@ -69,6 +69,9 @@ The site opens to a title, subtitle and about section.
 * This section also contains and image of the audio equipment a narrator would use. 
 
 ## Contact section 
+
+<img src="documentation/contacts.PNG" width="450" height="250" alt="image of sample section of the web site">
+
 * This section contains a form and basic description about hiring the narrator.
 *There is also an image that fits the themes of the site. Img from <a href=”https://unsplash.com/photos/Dz4iJ3v4-X4”> unsplash.com </a>
 * The form consists of: 
@@ -82,13 +85,19 @@ The site opens to a title, subtitle and about section.
 
 ## footer
 
-* The footer is styled to match the header and close of the page I astatically pleasing way
+* The footer is styled to match the header and to close off the page In an astatically pleasing way.
 * It contains links to socials and also copyright info.
 
-## Technologies used
-HTML, CSS, Reaper: DAW to create sample audio 
+## validation
 
-### socrces and referances:
+* css was ran through (Jigsaw) validator and has no errors.
+* HTML was ran thtough W3C validator with no issues.
+
+
+## Technologies used
+HTML, CSS, Reaper DAW: to create sample audio 
+
+### sources and referances:
 * Images souced from unspash.com and www.pexels.com
 * used this site as a refferance for using css grids: https://www.codegrepper.com/code-examples/css/make+css+grid+expand+to+fit+content
 * bases my audio code from this page"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
