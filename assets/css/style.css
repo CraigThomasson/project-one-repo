@@ -317,7 +317,12 @@ footer a{
 form input {
     width: 97%;
     margin:4px;
-    border: 1px solid #371300;
+    border: 2px solid #371300;
+    border-radius: 0.4vh;
+}
+
+form input[type=text], form input[type=email], form input[type=number] {
+    height: 20px;
 }
 
 form input[type=submit] {
