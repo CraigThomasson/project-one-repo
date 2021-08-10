@@ -53,7 +53,7 @@ The users will:
 
 <img src="documentation/load-screen.PNG" width="450" height="250" alt="image of live site title acreen/about section">
 
-The site opens to a title, subtitle and about section. 
+The user can see what services are offered by the narrator in the about section and can see clear navigation options to the samples section and the contact section. There is also a call to action at the end of the about section so the user can pe directed to the contact page. This will make is easer for first time users navigate the page. The call to action will also help returning user that may be comparing narrators to quickly navigate to the contact page.
 * The title and subtitle make it clear that the site is for audio book narration and the about section clearly stats the services offered.
 * There is a nave bar that will send the user to each section of the page.
 * I decided to turn this site in to a one-page site part way through he projects as this will mean that every thing the user need is easy to access. 
@@ -63,6 +63,7 @@ The site opens to a title, subtitle and about section.
 
 <img src="documentation/sample.PNG" width="450" height="250" alt="image of sample section of the web site">
 
+The samples in this section are easy for the user to find and of brief descriptions to give the user some context.
  * This section contains two audio players with samples of the narrators work. 
  * The samples section is the reason I chose to change to a one page style website as it made more sense to have the samples easily accessible to the user. 
 * The audio players do not auto play when the site loads and can be controlled by the user. 
@@ -70,10 +71,12 @@ The site opens to a title, subtitle and about section.
 
 ## Contact section 
 
-<img src="documentation/contacts.PNG" width="450" height="250" alt="image of sample section of the web site">
+<img src="documentation/contacts.PNG" width="450" height="250" alt="image of contact section of the web site">
+
+Here the user can submit a request for their audio to be recorded. The form is clearly labelled and allows the user to leave all relevant information for the book to be recorded. 
 
 * This section contains a form and basic description about hiring the narrator.
-*There is also an image that fits the themes of the site. Img from <a href=”https://unsplash.com/photos/Dz4iJ3v4-X4”> unsplash.com </a>
+* There is also an image that fits the themes of the site. Img from <a href=”https://unsplash.com/photos/Dz4iJ3v4-X4”> unsplash.com </a>
 * The form consists of: 
     * Text inputs for names. 
     * Email inputs.
@@ -84,6 +87,8 @@ The site opens to a title, subtitle and about section.
 * All inputs from the form have the required attribute.
 
 ## footer
+
+<img src="documentation/footer.PNG" width="450" height="auto" alt="image of site footer">
 
 * The footer is styled to match the header and to close off the page In an astatically pleasing way.
 * It contains links to socials and also copyright info.
@@ -99,6 +104,8 @@ HTML, CSS, Reaper DAW: to create sample audio
 
 ### sources and referances:
 * Images souced from unspash.com and www.pexels.com
-* used this site as a refferance for using css grids: https://www.codegrepper.com/code-examples/css/make+css+grid+expand+to+fit+content
+* used this site as a refferance for using css grids: https://learncssgrid.com/
 * bases my audio code from this page"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
+
+
 
