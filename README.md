@@ -68,3 +68,26 @@ The site opens to a title, subtitle and about section.
 * The audio players do not auto play when the site loads and can be controlled by the user. 
 * This section also contains and image of the audio equipment a narrator would use. 
 
+## Contact section 
+* This section contains a form and basic description about hiring the narrator.
+*There is also an image that fits the themes of the site. Img from <a href=”https://unsplash.com/photos/Dz4iJ3v4-X4”> unsplash.com </a>
+* The form consists of: 
+    * Text inputs for names. 
+    * Email inputs.
+    * Number inputs.
+    * Inputs to upload doc’s.
+    * Text area inputs for more details. 
+    * A submit button.
+* All inputs from the form have the required attribute.
+
+## footer
+
+* The footer is styled to match the header and close of the page I astatically pleasing way
+* It contains links to socials and also copyright info.
+
+## Technologies used
+HTML
+CSS
+Reaper: DAW to create sample audio 
+
+
