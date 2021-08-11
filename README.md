@@ -100,6 +100,9 @@ Here the user can submit a request for their audio to be recorded. The form is c
 * CSS was ran through (Jigsaw) validator and has no errors
 * HTML was ran through W3C validator with no issues
 
+## Lighthouse Scores
+
+<img src="documentation/light-house-score.PNG" width="450" height="auto" alt="image of lighthouse results">
 
 ## Technologies used
 HTML, CSS. Reaper DAW to create sample audio.
