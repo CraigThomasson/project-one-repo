@@ -103,6 +103,13 @@ This project was deployed to git hub pages.
 * on the drop down under source selct your main branch.
 * click save
 
+## Testing
+
+* The site was tested in google chrome, Firefox, Microsoft edge and safari.
+* It was also tested on android and IOS phones.
+* Links in nav bar where all tested to ensure they link to the correct page sections
+* Check form to ensure it validates 
+
 ## Validation
 
 * CSS was ran through (Jigsaw) validator and has no errors
