@@ -100,20 +100,29 @@ Here the user can submit a request for their audio to be recorded. The form is c
 This project was deployed to git hub pages.
 * In your repository on git hub click settings.
 * click the pages tab
-* on the drop down under source selct your main branch.
+* on the drop down under source select your main branch.
 * click save
+
+### Clone to Run Locally
+* In the repository on github click the Code dropdown button next to the green Gitpod button.
+* Download ZIP file and unpackage locally and open with IDE. 
+
+
+### Fork the Repo
+* On GitHub, navigate to the repository you want to fork.
+* In the top-right corner of the page, click Fork.
 
 ## Testing
 
-* The site was tested in google chrome, Firefox, Microsoft edge and safari.
+* The site was tested in [google chrome](documentation/chrome-testing.PNG), [Firefox](documentation/firefox-testing.PNG), [Microsoft edge](documentation/edge-testing.PNG) and safari.
 * It was also tested on android and IOS phones.
 * Links in nav bar where all tested to ensure they link to the correct page sections
 * Check form to ensure it validates 
 
 ## Validation
 
-* CSS was ran through (Jigsaw) validator and has no errors
-* HTML was ran through W3C validator with no issues
+* CSS was ran through (Jigsaw) validator and has no errors: results [here](documentation/css-validation.PNG)
+* HTML was ran through W3C validator with no issues: results [here](http://validator.w3.org/check?uri=https://craigthomasson.github.io/project-one-repo)
 
 ## Lighthouse Scores
 
@@ -122,12 +131,18 @@ This project was deployed to git hub pages.
 ## Technologies used
 HTML, CSS. Reaper DAW to create sample audio.
 
+## credits 
+
 ### Sources and References
 * google fonts where used in this project https://fonts.google.com/
 * font awesome was used in the footer www.fontawesome.com
 * Images souced from unsplash.com and www.pexels.com
 * I used this site as a reference for using CSS grids: https://learncssgrid.com/
 * I based my audio code on code examples from this page: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
+
+## acknowledgements
+
+* I would like to thank my mentor Chriss Quinn for firstly Introducing me to Grids in CSS and second for being an outstanding mentor. He made sure I always pushed my self and tested my abilities during this project. 
 
 
 
