@@ -123,6 +123,8 @@ This project was deployed to git hub pages.
 HTML, CSS. Reaper DAW to create sample audio.
 
 ### Sources and References
+* google fonts where used in this project https://fonts.google.com/
+* font awesome was used in the footer www.fontawesome.com
 * Images souced from unsplash.com and www.pexels.com
 * I used this site as a reference for using CSS grids: https://learncssgrid.com/
 * I based my audio code on code examples from this page: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
