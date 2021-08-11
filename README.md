@@ -95,6 +95,14 @@ Here the user can submit a request for their audio to be recorded. The form is c
 
 * I used a call to action that links to the ontact section so that user that want to hire the narrator can quickly navigated to that section of the sight
 
+## Deployment
+
+This project was deployed to git hub pages.
+* In your repository on git hub click settings.
+* click the pages tab
+* on the drop down under source selct your main branch.
+* click save
+
 ## Validation
 
 * CSS was ran through (Jigsaw) validator and has no errors
@@ -102,7 +110,7 @@ Here the user can submit a request for their audio to be recorded. The form is c
 
 ## Lighthouse Scores
 
-<img src="documentation/light-house-score.PNG" width="450" height="auto" alt="image of lighthouse results">
+<img src="documentation/light-house-scores.PNG" width="450" height="auto" alt="image of lighthouse results">
 
 ## Technologies used
 HTML, CSS. Reaper DAW to create sample audio.
