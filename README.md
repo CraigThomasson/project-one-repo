@@ -122,7 +122,7 @@ This project was deployed to git hub pages.
 ## Validation
 
 * CSS was ran through (Jigsaw) validator and has no errors: results [here](documentation/css-validation.PNG)
-* HTML was ran through W3C validator with no issues: results [here](http://validator.w3.org/check?uri=https://craigthomasson.github.io/project-one-repo)
+* HTML was ran through W3C validator with no issues: results <a href="http://validator.w3.org/check?uri=https://craigthomasson.github.io/project-one-repo">here</a>
 
 ## Lighthouse Scores
 
