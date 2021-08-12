@@ -207,8 +207,8 @@ a:hover {
 
 #call-to-action {
     background-color: rgba(239,204,172,1);
-    height: auto;
-    width: 60%;
+    max-height: 50%;
+    width: 50%;
     border-radius: 2vh;
     margin: 6vh auto;
     grid-area: call-to-action;
@@ -216,8 +216,9 @@ a:hover {
 
 #call-to-action p {
     font-weight: bold;
-    font-size: 120%;
-    margin: 10% 5px;
+    font-size: 110%;
+    margin: 10% 5px 10% 5px;
+    
 }
 
 #call-to-action p a {
@@ -445,6 +446,14 @@ form textarea {
 
     #menu li a {
         font-size: 90%;
+    }
+
+    #call-to-action {
+        font-size: 85%;
+    }    
+
+    #call-to-action p {
+        margin: 4px;
     }
 }
 
