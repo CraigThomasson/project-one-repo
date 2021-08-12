@@ -115,7 +115,8 @@ This project was deployed to git hub pages.
 ## Testing
 
 * The site was tested in [google chrome](documentation/chrome-testing.PNG), [Firefox](documentation/firefox-testing.PNG), [Microsoft edge](documentation/edge-testing.PNG) and [safari](documentation/safari-test.png).
-* It was also tested on android and IOS phones.
+* It was also tested on [android](documentation/android-test.jpg) and IOS phones
+* As evidenced above i also tested on multiple view ports
 * Links in nav bar where all tested to ensure they link to the correct page sections
 * Check form to ensure it validates 
 
@@ -137,12 +138,17 @@ HTML, CSS. Reaper DAW to create sample audio.
 * google fonts where used in this project https://fonts.google.com/
 * font awesome was used in the footer www.fontawesome.com
 * Images souced from unsplash.com and www.pexels.com
+    * https://www.pexels.com/photo/black-corded-headphones-with-colorful-books-in-between-5939401/
+    * https://www.pexels.com/photo/woman-in-gray-tank-top-lying-on-bed-3807729/
+    * https://unsplash.com/photos/ZDNyhmgkZlQ
+    * https://unsplash.com/photos/Dz4iJ3v4-X4
 * I used this site as a reference for using CSS grids: https://learncssgrid.com/
 * I based my audio code on code examples from this page: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio
 
 ## acknowledgements
 
 * I would like to thank my mentor Chriss Quinn for firstly Introducing me to Grids in CSS and second for being an outstanding mentor. He made sure I always pushed my self and tested my abilities during this project. 
+* A big thanks to the Retro Space Cowbells team for the suport and posative vibes. 
 
 
 
