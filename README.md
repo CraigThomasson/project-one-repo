@@ -114,7 +114,7 @@ This project was deployed to git hub pages.
 
 ## Testing
 
-* The site was tested in [google chrome](documentation/chrome-testing.PNG), [Firefox](documentation/firefox-testing.PNG), [Microsoft edge](documentation/edge-testing.PNG) and safari.
+* The site was tested in [google chrome](documentation/chrome-testing.PNG), [Firefox](documentation/firefox-testing.PNG), [Microsoft edge](documentation/edge-testing.PNG) and [safari](documentation/safari-test.png).
 * It was also tested on android and IOS phones.
 * Links in nav bar where all tested to ensure they link to the correct page sections
 * Check form to ensure it validates 
