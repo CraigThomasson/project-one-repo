@@ -27,6 +27,7 @@ body {
     position: fixed;
     z-index: 4;
 }
+
 #bg img {
     position: relative;
     object-fit: cover;
@@ -156,6 +157,7 @@ header {
     margin: auto auto;
     margin-bottom: 6px;
 }
+
 nav {
     margin-top: 15px;
 }
@@ -295,7 +297,7 @@ footer p {
     margin-top: 10px;
 }
 
-footer a{
+footer a {
     font-size: 160%;
 }
 
